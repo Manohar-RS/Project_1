@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #eee6ba;
+            background-image: url("save.webp");
+            background-size: cover;
+           
+        }
+        .text{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: hsl(0, 0%, 8%); /* Light Orange */
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .text1{
+            margin: 0;
+            color: hwb(0 93% 4%); /* Dark Red */
+            font-size: 24px;   
+       }
+        .container {
+            text-align: center;
+        }
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .button-group button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #207ada; 
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .button-group .b1{
+            background-color: rgb(32, 236, 42);
+        }
+        .button-group .b1:hover {
+            background-color: rgb(1, 131, 27);
+            transform: scale(1.1);
+        }
+        .button-group button:hover {
+            background-color: #037dff; 
+            transform: scale(1.1);
+        }
+        .button-group a{
+            text-decoration: none;
+            color:white ;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="text">
+        <h1 class="text1">
+            
+            Welcome To
+            <br>
+            Saving Group Management System.
+        </h1>
+
+    </div>
+    <div class="button-group">
+        <button type="submit"><a href="signup.html">Sign Up</a></button>
+        <button class="b1" type="submit"><a href="login.html">Log in</a></button>
+    </div>
+</body> 
+</html>
